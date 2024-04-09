@@ -4,6 +4,7 @@
  * Documentation: https://v0.dev/docs#integrating-generated-code-into-your-nextjs-app
  */
 import { Button } from "@/components/ui/button";
+import Image from "next/image";
 
 export default function Hero() {
   return (
@@ -16,8 +17,8 @@ export default function Hero() {
             </h1>
             <p className="max-w-[900px] text-center text-gray-500 md:text-gray-400">
               Elevate your gameplay with our comprehensive guide to Teamfight
-              Tactics. From team composition to counter strategies, we've got
-              you covered.
+              Tactics. From team composition to counter strategies, weve got you
+              covered.
             </p>
           </div>
         </div>
@@ -26,7 +27,7 @@ export default function Hero() {
         </div>
       </div>
       <div className="grid w-full max-w-5xl gap-4 px-4 md:gap-8 lg:gap-12">
-        <img
+        <Image
           alt="Image"
           className="rounded-lg object-cover"
           height="450"

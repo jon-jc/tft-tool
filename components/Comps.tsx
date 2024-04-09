@@ -7,6 +7,7 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { CardContent, Card } from "@/components/ui/card";
+import Image from "next/image";
 
 export default function Comps() {
   return (
@@ -35,7 +36,7 @@ export default function Comps() {
                 <div className="font-semibold">1</div>
                 <div className="grid items-center grid-cols-[1fr_40px] gap-4">
                   <div className="flex items-center gap-2">
-                    <img
+                    <Image
                       alt="Champion"
                       className="rounded"
                       height="40"
@@ -59,7 +60,7 @@ export default function Comps() {
                 <div className="font-semibold">2</div>
                 <div className="grid items-center grid-cols-[1fr_40px] gap-4">
                   <div className="flex items-center gap-2">
-                    <img
+                    <Image
                       alt="Champion"
                       className="rounded"
                       height="40"
@@ -83,7 +84,7 @@ export default function Comps() {
                 <div className="font-semibold">3</div>
                 <div className="grid items-center grid-cols-[1fr_40px] gap-4">
                   <div className="flex items-center gap-2">
-                    <img
+                    <Image
                       alt="Champion"
                       className="rounded"
                       height="40"
@@ -107,7 +108,7 @@ export default function Comps() {
                 <div className="font-semibold">4</div>
                 <div className="grid items-center grid-cols-[1fr_40px] gap-4">
                   <div className="flex items-center gap-2">
-                    <img
+                    <Image
                       alt="Champion"
                       className="rounded"
                       height="40"
@@ -131,7 +132,7 @@ export default function Comps() {
                 <div className="font-semibold">5</div>
                 <div className="grid items-center grid-cols-[1fr_40px] gap-4">
                   <div className="flex items-center gap-2">
-                    <img
+                    <Image
                       alt="Champion"
                       className="rounded"
                       height="40"
@@ -155,7 +156,7 @@ export default function Comps() {
   );
 }
 
-function Package2Icon(props) {
+function Package2Icon(props: any) {
   return (
     <svg
       {...props}
@@ -176,7 +177,7 @@ function Package2Icon(props) {
   );
 }
 
-function SearchIcon(props) {
+function SearchIcon(props: any) {
   return (
     <svg
       {...props}
