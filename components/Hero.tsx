@@ -1,8 +1,3 @@
-/**
- * v0 by Vercel.
- * @see https://v0.dev/t/0RAxAQpv6FS
- * Documentation: https://v0.dev/docs#integrating-generated-code-into-your-nextjs-app
- */
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 
@@ -31,7 +26,7 @@ export default function Hero() {
           alt="Image"
           className="rounded-lg object-cover"
           height="450"
-          src="/placeholder.svg"
+          src="/tft.png"
           style={{
             aspectRatio: "800/450",
             objectFit: "cover",
